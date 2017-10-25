@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.kobe.MainActivity"
+        android:orientation="vertical"
+        android:background="#e6e6ff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="O Silmarillion"
+            android:gravity="center"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+            Esta página fala de um modo extremamente breve sobre as 5 partes de uma das maiores primas de literárias do século passado. Do autor da trilogia de O Senhor dos Anéis, em O Silmarillion, J.R.R. Tolkien fala da criação de Eä, antes sequer do início da 1ª era do mundo.
+            Um livro bastante interessante, aonde a leitura do mesmo é obrigatória para qualquer fã da trilogia de O Senhor dos Anéis."
+            android:paddingBottom="30dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="cursive"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Ainulindalë é a chamada Música dos Ainur, que toma parte da obra do autor britânico J.R.R.Tolkien. É a primeira parte do livro O Silmarillion, e conta a história da criação dos Ainur, seres angelicais que surgiram do pensamento de Eru Ilúvatar."
+                android:padding="5dp"
+                android:background="#ffffff"/>
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ainunlidale"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/valaquenta"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Valaquenta, a segunda parte, dá uma descrição dos Valar e Maiar, os poderes sobrenaturais de Eä."
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text=" A próxima seção, Quenta Silmarillion, que forma a maior parte da coleção, narra a história dos eventos antes e durante a Primeira Era, incluindo as guerras pelas Silmarils que deu título ao livro."
+                android:padding="5dp"
+                />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/quentasilmarillion"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/numenor"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="A quarta parte, Akallabêth, relata a história da Queda de Númenor e seu povo, que tem lugar na Segunda Era. Númenor, outrora um enorme império, é o povo antepassado da conhecida personagem Aragorn, de O Senhor dos Anéis."
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="A parte final, Dos Anéis de Poder e da Terceira Era, é um breve relato das circunstâncias que levaram e foram apresentadas em O Senhor dos Anéis."
+                android:padding="5dp"
+                />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/anel"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
